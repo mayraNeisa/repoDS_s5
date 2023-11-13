@@ -43,7 +43,7 @@ tags_only: &tags_only
 workflows:
   version: 1
   deploy_pipeline:
-    jobs:
+    jobs: 
       - deploy_app_to_railway:
           filters:
             branches:
